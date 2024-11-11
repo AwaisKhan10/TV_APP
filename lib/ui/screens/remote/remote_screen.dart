@@ -91,11 +91,19 @@ class RemoteScreen extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
+                            ///
+                            /// remote okay wala jo hai wo show hoga
+                            ///
+                            ///
                             Image.asset(
                               AppAssets.remote,
                               scale: 4,
                               color: Colors.grey,
                             ),
+
+                            ///
+                            /// keypad wala jo hai wo show hoga
+                            ///
                             CircleAvatar(
                               radius: 18,
                               backgroundColor: primarColor,
@@ -104,6 +112,10 @@ class RemoteScreen extends StatelessWidget {
                                 scale: 4,
                               ),
                             ),
+
+                            ///
+                            ///   mdi_trackpad
+                            ///
                             Image.asset(
                               AppAssets.mdi_trackpad,
                               scale: 4,
